@@ -1,0 +1,40 @@
+
+M: Main road
+S: Side street
+
+RGY: Red Green Yellow
+
+Time for which each light stays on
+MG - 15*20  |  MY - 2*20  | MR = SG+SY
+SG - 4*20   |  SY - 2*20  | SR = MG+MY
+
+RESULT with Internal wires printed
+---------------------------------------------------------------------------------
+time:                    0, reset:1. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:x,Ored:1 tMG tMY: x x| tSG tSY: x x
+time:                   20, reset:1. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:1 tMG tMY: 0 0| tSG tSY: 0 0
+time:                   40, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 1| tSG tSY: 0 1
+time:                   60, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 0 0
+time:                  100, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 1 0
+time:                  120, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 0 0
+time:                  320, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:1,Ored:1 tMG tMY: 1 0| tSG tSY: 0 0
+time:                  340, reset:0. RGY- M: 0 0 1| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 0 0
+time:                  360, reset:0. RGY- M: 0 0 1| S: 1 0 0| 	 start_timer:1,Ored:1 tMG tMY: 0 1| tSG tSY: 0 1
+time:                  380, reset:0. RGY- M: 1 0 0| S: 0 1 0| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 0 0
+time:                  400, reset:0. RGY- M: 1 0 0| S: 0 1 0| 	 start_timer:0,Ored:0 tMG tMY: 0 1| tSG tSY: 0 1
+time:                  420, reset:0. RGY- M: 1 0 0| S: 0 1 0| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 0 0
+time:                  460, reset:0. RGY- M: 1 0 0| S: 0 1 0| 	 start_timer:1,Ored:1 tMG tMY: 0 0| tSG tSY: 1 0
+time:                  480, reset:0. RGY- M: 1 0 0| S: 0 0 1| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 0 0
+time:                  500, reset:0. RGY- M: 1 0 0| S: 0 0 1| 	 start_timer:1,Ored:1 tMG tMY: 0 1| tSG tSY: 0 1
+time:                  520, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 0 0
+time:                  540, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 1| tSG tSY: 0 1
+time:                  560, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 0 0
+time:                  600, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 1 0
+time:                  620, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 0 0
+time:                  820, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:1,Ored:1 tMG tMY: 1 0| tSG tSY: 0 0
+time:                  840, reset:0. RGY- M: 0 0 1| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 0 0
+time:                  860, reset:0. RGY- M: 0 0 1| S: 1 0 0| 	 start_timer:1,Ored:1 tMG tMY: 0 1| tSG tSY: 0 1
+time:                  880, reset:1. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:1 tMG tMY: 0 0| tSG tSY: 0 0
+time:                  900, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 1| tSG tSY: 0 1
+time:                  920, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 0 0
+time:                  960, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 1 0
+time:                  980, reset:0. RGY- M: 0 1 0| S: 1 0 0| 	 start_timer:0,Ored:0 tMG tMY: 0 0| tSG tSY: 0 0
