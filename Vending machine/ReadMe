@@ -1,0 +1,4 @@
+Vending machine accepts coins 5 and 10. can is disposed when total=15. after which count resets to 0
+excess coins will not be returned(10+10 -- will not return 5)
+
+once can is disposed (can == 1), vending machine will be ready to accept input after one clk cycle
