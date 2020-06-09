@@ -1,0 +1,5 @@
+1 bit input stream, overlapping
+out == 1 when a sequence '1101' is detected
+
+Moore and Mealy were invented
+Moore has one extra state comapred to Mealy - state- associated with output==1
