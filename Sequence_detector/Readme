@@ -1,5 +1,6 @@
 1 bit input stream, overlapping
 out == 1 when a sequence '1101' is detected
 
-Moore and Mealy were invented
+Moore and Mealy were created
 Moore has one extra state comapred to Mealy - state- associated with output==1
+Mealy needs out to be a register, since its changes inside an always posedge clk
