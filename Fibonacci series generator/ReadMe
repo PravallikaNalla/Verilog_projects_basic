@@ -1,0 +1,8 @@
+A series of numbers in which each number ( Fibonacci number ) is the sum of the two preceding numbers.
+The simplest is the series 1, 1, 2, 3, 5, 8, etc.
+F(n) = F(n-1) + F(n-2)
+reffered to in the code as
+Fn = Fn_1 + Fn_2
+
+2 registers which store the previous 2 numbers in the sequence
+add these two number and push the result to update registers
