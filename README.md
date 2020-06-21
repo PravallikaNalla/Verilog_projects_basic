@@ -9,3 +9,5 @@ CONTENTS:
 3. Vending machine - 5/- 10/- 
 4. lift controller
 5. Arbitary sequence detector
+6. Fibonacci series generator
+7. Car parking system
